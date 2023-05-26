@@ -1,4 +1,13 @@
 body {
-    background-color: grey;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.celes {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: white;
 }
