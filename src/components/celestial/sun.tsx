@@ -15,8 +15,13 @@ export default function Sun() {
   return (
     <mesh ref={sunRef}>
       <sphereGeometry args={[6, 32, 32]} />
-      <meshPhongMaterial map={sunTexture} emissiveMap={sunTexture} emissiveIntensity={2.5} emissive={0xffffff} />
-      <pointLight castShadow decay={0.0001} intensity={4} />
+      <meshPhongMaterial
+        map={sunTexture}
+        emissiveMap={sunTexture}
+        emissiveIntensity={3.5}
+        emissive={0xffffff}
+      />
+      <pointLight castShadow decay={0.0001} intensity={5} />
     </mesh>
   );
 }

@@ -12,6 +12,5 @@ export default function AnimatedStars() {
     starsRef.current.rotation.z += 0.0001;
   });
 
-  return (<Stars ref={starsRef} />);
-
+  return <Stars radius={200} ref={starsRef} />;
 }
