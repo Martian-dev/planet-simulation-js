@@ -18,7 +18,7 @@ export default function Sun() {
       <meshPhongMaterial
         map={sunTexture}
         emissiveMap={sunTexture}
-        emissiveIntensity={3.5}
+        emissiveIntensity={2}
         emissive={0xffffff}
       />
       <pointLight castShadow decay={0.0001} intensity={5} />
