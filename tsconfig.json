@@ -26,6 +26,7 @@
       "src/*": ["./src/*"],
       "components/*":["./src/components/*"],
       "assets/*": ["./src/assets/*"],
+      "helpers/*": ["./src/helpers/*"],
     }
   },
   "include": ["src"],
