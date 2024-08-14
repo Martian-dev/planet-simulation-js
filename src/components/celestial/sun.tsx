@@ -14,7 +14,7 @@ export default function Sun() {
 
   return (
     <mesh ref={sunRef}>
-      <sphereGeometry args={[6, 32, 32]} />
+      <sphereGeometry args={[10, 32, 32]} />
       <meshPhongMaterial
         map={sunTexture}
         emissiveMap={sunTexture}
